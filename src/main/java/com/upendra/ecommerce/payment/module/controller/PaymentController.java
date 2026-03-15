@@ -1,4 +1,4 @@
-package com.upendra.ecommerce.payment.controller;
+package com.upendra.ecommerce.payment.module.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.upendra.ecommerce.payment.entities.Payment;
-import com.upendra.ecommerce.payment.service.PaymentService;
+import com.upendra.ecommerce.payment.module.entities.Payment;
+import com.upendra.ecommerce.payment.module.service.PaymentService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

@@ -1,7 +1,7 @@
-package com.upendra.ecommerce.payment.service;
+package com.upendra.ecommerce.payment.module.service;
 import java.util.List;
 
-import com.upendra.ecommerce.payment.entities.Payment;
+import com.upendra.ecommerce.payment.module.entities.Payment;
 
 public interface PaymentService {
 

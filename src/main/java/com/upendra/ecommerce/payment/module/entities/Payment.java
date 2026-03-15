@@ -1,4 +1,4 @@
-package com.upendra.ecommerce.payment.entities;
+package com.upendra.ecommerce.payment.module.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,12 +1,12 @@
-package com.upendra.ecommerce.payment.service;
+package com.upendra.ecommerce.payment.module.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.upendra.ecommerce.payment.entities.Payment;
-import com.upendra.ecommerce.payment.repository.PaymentRepository;
+import com.upendra.ecommerce.payment.module.entities.Payment;
+import com.upendra.ecommerce.payment.module.repository.PaymentRepository;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
